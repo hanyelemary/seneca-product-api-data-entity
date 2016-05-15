@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "seneca": "^2.0.1",
+    "seneca-entity": "^0.0.1",
     "seneca-jsonfile-store": "0.2.2",
     "express": "^4.13.4",
     "body-parser": "^1.15.0"
