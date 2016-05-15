@@ -34,7 +34,7 @@ curl -m 1 -s -H 'Content-Type: application/json' -d '{"id": 567, "name":"new pro
 Now, open up the browser (or postman) and go to the following url:
 
 ```
-http://localhost:3000/products/123
+http://localhost:3000/products/345
 ```
 
 For a POST request to search for products by name or description, run this from the command line:
