@@ -14,6 +14,7 @@ describe(`POST product/add`, function() {
     		price: 79.99
     	}
     }, function(error, response, body) {
+			expect(body._id).toEqual(345);
 			expect(body.length).not.toEqual(0);
 			done();
 		});
